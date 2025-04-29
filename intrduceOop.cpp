@@ -6,8 +6,13 @@ class Mahasiswa{
     int NIM;
     string nama;
     float nilai;
+    void printData(){
+        cout << "Nim: "<< NIM << endl;
+        cout << "Nama: "<< nama << endl;
+        cout << "Nim: "<< nilai << endl;
+    }
 };
 
 int main(){
-
+ 
 }
